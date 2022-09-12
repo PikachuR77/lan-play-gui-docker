@@ -27,4 +27,5 @@ RUN chmod +x start.sh
 RUN setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' lan-play-linux
 RUN chmod 777 lan-play-linux
 
+#This will now open lan-play-gui
 CMD ["./start.sh"]
