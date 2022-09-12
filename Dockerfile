@@ -24,7 +24,7 @@ RUN chmod +x lan-play-gui
 RUN chmod +x start.sh
 
 #Commands recommended in the gui README.MD
-RUN setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' lan-play-linux
+#RUN setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' lan-play-linux
 RUN chmod 777 lan-play-linux
 
 #This will now open lan-play-gui
